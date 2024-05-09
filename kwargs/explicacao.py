@@ -1,0 +1,9 @@
+# Sem usar kwargs
+def cadastra_aluno(nome, idade, sexo, data_nascimento, nome_pai=None): #...
+    ...
+
+
+# Usando kwargs
+def cadastra_aluno(*kwargs):
+    nome = kwargs.get('nome')
+    ...
